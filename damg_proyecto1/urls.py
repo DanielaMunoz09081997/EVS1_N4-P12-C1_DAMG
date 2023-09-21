@@ -21,5 +21,5 @@ from app1 import views as v1
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app1vista1/', v1.app1vista1),
-    path('app2vista2/', v1.app2vista2)
+    path('app1vista2/', v1.app1vista2)
 ]

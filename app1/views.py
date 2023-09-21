@@ -7,7 +7,7 @@ def app1vista1(request):
     """
     return HttpResponse(html)
 
-def app2vista2(request):
+def app1vista2(request):
     html="""
         <h1 style="color:red">Hola mundo desde app1 vista2</h1>
     """
